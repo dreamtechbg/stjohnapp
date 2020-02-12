@@ -1,0 +1,350 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	min-height: 100%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background: #f7efe2;
+	position: relative;
+}
+
+a, a:link, a:visited {
+    outline: none;
+	text-decoration: none;	
+}
+
+img {
+	border: none;
+	margin: 0px;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	float: left;
+	padding: 0px;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;	
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+h3 {
+	font-size: .9em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;	
+}
+
+form, input, select, textarea, p {
+	margin: 0px;
+	padding: 0;
+}
+
+textarea {
+	resize: none;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+input::-moz-focus-inner { 
+    border: 0;
+    padding: 0;
+}
+
+article, aside, details, figcaption, figure,  
+footer, header, hgroup, menu, nav, section, time {  
+	display: block; 
+	margin: 0px;
+	padding: 0; 
+} 
+
+.clear {
+	clear: both;
+	font-size: 0em;
+	line-height: 0px;
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	display: none;
+}
+
+.modal_wrapper {
+	width: 100%;
+	position: absolute;
+	padding-top: 50px;
+	top: 0;
+	left: 0;
+	z-index: 1001;
+	display: none;
+}
+
+#ieWrapper {
+	background: #000;
+	position: fixed;
+	z-index: 100;
+	top: 0;	left: 0;
+	width: 100%;
+	height: 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.ieHolder {
+	position: relative; 
+	width: 555px;
+	padding: 20px;
+	margin: 200px auto 0 auto;
+	background: #FFF;
+	border: 7px solid #2b2927;
+}
+
+.btnIeUpdate {
+	background: url(../images/btnIeUpdate.jpg) 0 0 no-repeat;
+	width: 144px;
+	height: 37px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	color: #fff;
+	line-height: 37px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.ieLogo {
+	float: left;
+}
+
+.ieContent {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 400px;
+	color: #666;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.ieContent strong {
+	margin: 0 0 15px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px dashed #cccccc;
+	display: block;
+	font-size: 18px;
+	color: #333;
+	font-weight: normal;
+}
+
+#container {
+	width: 100%;
+	padding: 0 0 48px;
+}
+
+.loginBox {
+	width: 418px; 
+	height: 311px;
+	margin: 200px auto 0;
+	background: url(../images/bgLogin.png) no-repeat 0 0;
+	padding: 0 0 0 72px;
+}
+
+.loginField {
+	background: url(../images/bgLoginField.png) no-repeat 0 0;
+	width: 266px;
+	height: 41px;
+	margin: 0 0 22px 105px;
+    padding: 0 8px;
+    position: relative;
+}
+
+.loginTitle {
+	display: block;
+    padding: 108px 0 0 108px;   
+}
+
+#btnSubmit {
+    background: url(../images/bgBtn.png) no-repeat 0 0;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    height: 38px;
+    margin: 0 43px 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 92px;
+}
+
+.loginWrap form > a {
+	margin: 0 0 0 105px;
+	color: #333333
+}
+
+.loginField label {
+    color: #554E4E;
+    font-family: Arial,Helvetica,sans-serif;
+    left: 10px;
+    position: absolute;
+    top: 15px;
+}
+
+.loginField input {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 11px 0 0 3px;
+    width: 245px;
+}
+
+.loginBox .queryInput label.showLab {
+	color: #ccc;
+}
+
+.pageHeader {
+	background: url(../images/rptBgHeader.png) repeat-x 0 0;
+	height: 103px;
+}
+
+.headerWrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.pageContent {
+	width: 1000px;
+	margin: 0 auto 20px;
+	padding: 17px 0 0;	
+}
+
+.headerWrap h2 {
+	float: left;
+	margin: 59px 0 0;
+	font-size: 19px;
+	line-height: 23px;
+	font-weight: bold;
+}
+
+.headerWrap .btnLogout {
+	background: url(../images/bgBtn.png) no-repeat 0 0;
+	width: 92px;
+	height: 27px;
+	display: block;
+	float: right;
+	margin: 45px 0 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 27px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 11px 0 0;
+}
+
+.pageContent aside {
+	float: left;
+	width: 133px;
+	padding: 0 22px 0 17px;
+}
+
+.pageNav ul li {
+	float: none;	
+}
+
+.pageNav ul li a {
+	color: #4b2714;
+	padding: 9px 0 9px 6px;
+	border-bottom: 1px solid #c89c84;
+	display: block;
+} 
+
+.contentRight {
+	float: right;
+	border: 1px solid #c89c84;
+	width: 758px;
+	min-height: 430px;
+	background: #fff;
+	margin: 0 4px 0 0;
+	padding: 10px;
+}
+
+.pageFooter {
+	min-height: 41px;
+	background: #464141;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.errorMsg {
+	position: relative; 
+	font-style: italic; 
+	color: #A00000; 
+	width: 150px; 
+	bottom: -18px; 
+	right: -108px;
+}
+
+.errorInvalid {
+	position: relative; 
+	font-style: italic; 
+	color: #A00000; 
+	bottom: -18px; 
+	right: -108px
+}
+
+.value {
+	display: none;
+}
+
+.btnup, .btndown{
+	width: 15px;
+	height: 15px;
+	display: block;
+	text-indent: -9999px;
+}
+
+.btnup {
+	background: url('../images/up.png') no-repeat 0 0;	
+	margin: 0 0 0 8px;
+	float: left;
+}
+
+.btndown {
+	background: url('../images/down.png') no-repeat 0 0;	
+	margin: 0 8px 0 0;
+	float: right;
+}

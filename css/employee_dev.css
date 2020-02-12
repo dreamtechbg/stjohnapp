@@ -1,0 +1,114 @@
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+
+#timePick { position: relative;}
+.timeList {display: none;position: absolute;}
+.availLeave {
+	margin-bottom: 0;
+	padding: 25px .5em 25px 250px;
+	color: #333;
+	background-color: #F99A05;
+}
+.success_msg {
+	background: url(../images/bgSuccess.png) no-repeat 25px 15px #d7f3bd;
+	line-height: 40px; 
+	border: 1px solid #9abf85;
+	padding-right: 20px; 
+    color: green;
+    font-size: 12px;
+    text-align: left;
+    text-indent: 50px;
+    margin: 10px 15px 5px 15px;
+}
+
+.table tr.subhead {
+	background: #ccc !important;
+	color: #000 !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-indent: 5px !important;
+}
+.icon-attachment {
+    background: url("../images/attachment.png") no-repeat 0 7px;
+}
+.calendar, .calendar table {
+	
+     background: url("/images/normal-bg.gif") repeat scroll 0 0 transparent  !important;
+}
+.calendar tbody td.selected {
+    background: url("/images/active-bg.gif") repeat scroll 0 0 transparent  !important;
+}
+
+
+.newsDiv {
+ 	  
+    background: url("../images/newstop.png") no-repeat scroll center top transparent;  
+    height: 171px;
+    margin: 25px 0 0 0;    
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    
+   
+    
+}
+.sliderLatestNews {
+	 background-color: #F99A05;
+    height: 71%;
+    margin: 0 2px 0 16px;
+    text-align: left;
+    width: 85%;
+	-moz-border-bottom-right-radius: 15px; /* Firefox */
+   -webkit-border-bottom-right-radius: 15px; /* Safari, Chrome */
+   border-bottom-right-radius: 15px; /* CSS3 */
+   -moz-border-bottom-left-radius: 15px; /* Firefox */
+   -webkit-border-bottom-left-radius: 15px; /* Safari, Chrome */
+   border-bottom-left-radius: 15px; /* CSS3 */
+}
+.sliderLatestNews div {
+	
+	margin: 25px 0 0 8px;
+	text-align: left;
+}
+.sliderLatestNews div a{	
+	font-size: 10px;
+	padding-left: 126px;
+}
+.newsHead {
+	color: #FFFFFF ;
+    font-weight: bold;
+    background-color: #F99A05;    
+    height: 15%;
+    margin: 12px 2px 0 16px;
+    padding-top: 10px;
+    text-align: center;
+    width: 85%;
+}
+.chatHistory {
+	cursor:pointer;
+	float: right;
+}
+.emoticon {
+	float:left;	
+	cursor: pointer;
+}
+.emotIcons {
+	 border: 1px solid orange;
+    min-height: 131px;
+    min-width: 166px;
+    max-width: 200px;
+    display: none;
+    cursor: pointer;
+    float: left;
+}
+.eIcon {
+	padding:2px;
+}
+.moreIcons {
+	display: none;
+}

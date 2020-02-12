@@ -1,0 +1,245 @@
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+	background: #f7efe2;
+}
+.err_msg {
+	color: #D11005;
+    font-size: 11px;
+    font-weight: bold;
+}
+.clearfix li {
+    display: inline-block;
+    float: center;
+    font-size: 12px;
+    line-height: 18px;
+    position: relative;
+    z-index: 5000;
+}
+#menutop {
+	FONT: 12px/18px Tahoma, Arial, Helvetica, sans-serif; 
+	height: 84px;
+	margin: 0 auto;
+	width: 1068px;
+	HEIGHT: 84px
+}
+#menutop UL {
+	LIST-STYLE-TYPE: none; MARGIN: 0px auto; WIDTH: 100%; LIST-STYLE-IMAGE: none
+}
+#menutop LI {
+	LINE-HEIGHT: 30px; 
+	LIST-STYLE-TYPE: none; 
+	MARGIN: 35px 5px 0; 
+	DISPLAY: block; 
+	FLOAT: left; 
+	HEIGHT: 30px; 
+	FONT-SIZE: 11px; 
+	FONT-WEIGHT: bold; 
+	LIST-STYLE-IMAGE: none
+}
+#menutop LI A {
+	PADDING-BOTTOM: 0px; 
+	TEXT-TRANSFORM: uppercase; 
+	PADDING-LEFT: 10px; 
+	PADDING-RIGHT: 10px;
+	DISPLAY: block; 
+	FLOAT: left; 
+	HEIGHT: 30px; 
+	COLOR: #231F20; 
+	TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+
+#menutop ul li a {
+	font-size: 18px;	
+}
+
+
+#menutop LI .current SPAN {
+	DISPLAY: block; BACKGROUND: url(../images/fm_hover_pointer.jpg) no-repeat 50% top; FLOAT: left; HEIGHT: 30px
+}
+#menutop LI .current {
+	PADDING-BOTTOM: 0px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; BACKGROUND: url(../images/fm_hover_bg.jpg) repeat-x; FLOAT: left; HEIGHT: 30px; COLOR: #fff; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#menuleft {
+	TEXT-ALIGN: left; 
+	LIST-STYLE-TYPE: none; 
+	WIDTH: 184px; 
+	/*BACKGROUND: url(../images/background.png) no-repeat;*/ 
+	HEIGHT: 214px; 
+	LIST-STYLE-IMAGE: none; 
+	PADDING-TOP: 15px;
+	margin: 0 15px 0 50px;
+}
+#menuleft LI {
+	PADDING-LEFT: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: #c89c84 1px solid;
+}
+
+#menuleft li:first-child {
+	border-top: 0px;
+}
+
+#menuleft UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+
+
+#menuleft a {
+	PADDING-BOTTOM: 0px; 
+	PADDING-LEFT: 0px; 
+	WIDTH: 145px; 
+	PADDING-RIGHT: 0px; 
+	DISPLAY: block; 
+	HEIGHT: 20px; 
+	COLOR: #4b2714; 
+	FONT-SIZE: 11px; 
+	FONT-WEIGHT: bold; 
+	TEXT-DECORATION: none; 
+	PADDING-TOP: 9px
+}
+
+#menuleft A:hover {
+	PADDING-BOTTOM: 0px; 
+	PADDING-LEFT: 0px; 
+	WIDTH: 145px; 
+	PADDING-RIGHT: 0px; 
+	DISPLAY: block; 
+	HEIGHT: 20px; 
+	COLOR: #333333; 
+	FONT-SIZE: 11px; 
+	FONT-WEIGHT: bold; 
+	TEXT-DECORATION: none; 
+	PADDING-TOP: 9px
+}
+.copyright-text {
+	TEXT-ALIGN: left; PADDING-LEFT: 10px; COLOR: #cccccc; FONT-SIZE: 11px
+}
+.layout-table > div {
+	BACKGROUND: url(../images/rptBgHeader.png) repeat-x 0 top;
+}
+.listtopdiv {
+	border: 1px solid #CCCCCC;
+    float: left;
+    font-size: 11px;
+    height: auto;
+    min-height: 35px;
+    padding-left: 5px;
+    
+    width: 99%;
+}
+.subdiv {
+	width: 150px;
+	
+	float:left;
+	border-right:1px solid #CCCCCC;
+	
+	height: 54px !important;
+   	 padding: 6px 0 0 5px;
+}
+
+.subdiv > span {
+	float: right;
+	padding: 0 10px 0 0;
+}
+
+.subDivWrap {
+	height: 40px;
+	overflow: hidden;
+}
+
+.subdiv_2 {
+	border-right:none;
+}
+#tnt_pagination {
+	TEXT-ALIGN: left; LINE-HEIGHT: 21px; DISPLAY: block; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 22px; CLEAR: both; FONT-SIZE: 12px; FONT-WEIGHT: normal; PADDING-TOP: 3px
+}
+#tnt_pagination A:link {
+	BORDER-BOTTOM: #ebebeb 1px solid; BORDER-LEFT: #ebebeb 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #f5f5f5; PADDING-LEFT: 7px; WIDTH: 22px; PADDING-RIGHT: 7px; COLOR: #0072bc; MARGIN-LEFT: 10px; BORDER-TOP: #ebebeb 1px solid; FONT-WEIGHT: normal; BORDER-RIGHT: #ebebeb 1px solid; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+#tnt_pagination A:visited {
+	BORDER-BOTTOM: #ebebeb 1px solid; BORDER-LEFT: #ebebeb 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #f5f5f5; PADDING-LEFT: 7px; WIDTH: 22px; PADDING-RIGHT: 7px; COLOR: #0072bc; MARGIN-LEFT: 10px; BORDER-TOP: #ebebeb 1px solid; FONT-WEIGHT: normal; BORDER-RIGHT: #ebebeb 1px solid; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+#tnt_pagination A:hover {
+	BORDER-BOTTOM: #bbddff 1px solid; BORDER-LEFT: #bbddff 1px solid; BACKGROUND-COLOR: #ddeeff; COLOR: #0072bc; BORDER-TOP: #bbddff 1px solid; BORDER-RIGHT: #bbddff 1px solid
+}
+#tnt_pagination .active_tnt_link {
+	BORDER-BOTTOM: #bbddff 1px solid; BORDER-LEFT: #bbddff 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #ddeeff; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; COLOR: #0072bc; MARGIN-LEFT: 10px; BORDER-TOP: #bbddff 1px solid; CURSOR: default; BORDER-RIGHT: #bbddff 1px solid; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+#tnt_pagination .disabled_tnt_pagination {
+	BORDER-BOTTOM: #ebebeb 1px solid; BORDER-LEFT: #ebebeb 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #f5f5f5; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; COLOR: #d7d7d7; MARGIN-LEFT: 10px; BORDER-TOP: #ebebeb 1px solid; CURSOR: hand; BORDER-RIGHT: #ebebeb 1px solid; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+.topdiv {
+    background-color: #EAEAEA;
+    border: 1px solid #CCCCCC;
+    float: left;
+    font-size: 11px;
+    height: auto;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 99%;
+}
+.textbox_style {
+    border: 1px solid #DDDDDD;
+    height: 28px;
+    margin: 3px 3px 3px 0;
+    padding: 5px;
+    width: 200px;
+}
+.textarea_style{
+	border: 1px solid #DDDDDD;
+    height: 150px;
+    margin: 3px 3px 3px 0;
+    padding: 5px;
+    width: 460px;
+}
+label {
+    font-size: 13px;
+    font-weight: bold;
+}
+fieldset {
+	width: 650px;
+	border: 1px solid #DDDDDD;
+}
+legend {
+	font-size: 12px;
+	font-weight: bold;
+}
+.selectbox {
+    height: auto;
+}
+.changepasswordLink {
+	color: #A41F22;
+	font-size: 11px;
+	font-weight: bold;
+}
+.calendar, .calendar table {
+ 
+    background: url("/images/normal-bg.gif") repeat scroll 0 0 transparent  !important;
+}
+.calendar tbody td.selected {
+    background: url("/images/active-bg.gif") repeat scroll 0 0 transparent  !important;
+}
+
+.btnLogout {
+	background: url(../images/bgBtn.png) no-repeat 0 0;
+	width: 92px;
+	height: 33px !important;
+	border: 0px;
+	color: #fff !important;
+	text-align: center;
+	cursor: pointer;
+	padding: 5px 0 0 !important;
+	font-size: 12px !important;
+}
+
+.pageContent .pageNav li ul {
+background: white;
+display: none;
+}
+
+.subdiv_2 > a{
+
+	color:#8A2908;
+	padding-right:10px;
+}
